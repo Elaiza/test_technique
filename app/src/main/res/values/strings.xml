@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">test_technique</string>
+    <string name="Name_User">Nom</string>
+    <string name="title_Activity_detail_user">Detail user</string>
+    <string name="TextView_Article">Article</string>
+    <string name="TextView_Album">Album</string>
+    <string name="Title_Article">titre de l\'article</string>
+    <string name="Title_Album">titre de l\'album</string>
+    <string name="Add_comm">Ajouter un commentaire</string>
+    <string name="Body_Article">Body Article</string>
+    <string name="title_Activity_commentaire">Ajouter un commentaire</string>
+    <string name="Commentaire">Commentaire</string>
+    <string name="PUBLIER">Publier</string>
+    <string name="post_comment">Votre commentaire a bien été posté!</string>
+    <string name="post_comment_error">Erreur lors du post de votre commentaire!</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ll.test_technique.Activity_commentaire"
+    android:background="@color/front_recycler_View_user" >
+
+    <EditText
+        android:id="@+id/editText_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/border"
+        android:hint="@string/Add_comm"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_publier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorAccent"
+        android:text="@string/PUBLIER"
+        app:layout_constraintRight_toRightOf="@+id/editText_comment"
+        app:layout_constraintTop_toBottomOf="@+id/editText_comment" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_commentaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btn_publier"
+        android:layout_marginTop="20dp"
+        />
+
+</android.support.constraint.ConstraintLayout>
